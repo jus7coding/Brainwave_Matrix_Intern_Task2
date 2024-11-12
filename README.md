@@ -1,70 +1,113 @@
-# Getting Started with Create React App
+# KeyboardHub - Mechanical Keyboard E-commerce
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern, responsive e-commerce website for premium mechanical keyboards built with React.js and Framer Motion.
 
-## Available Scripts
+## 🚀 Features
 
-In the project directory, you can run:
+- **Modern UI/UX**: Clean and professional design with smooth animations
+- **Responsive Design**: Works seamlessly on desktop, tablet, and mobile devices
+- **Product Catalog**: Extensive collection of mechanical keyboards with detailed specifications
+- **Shopping Cart**: Full-featured cart system with quantity management
+- **Interactive Elements**: Smooth animations and transitions using Framer Motion
+- **Customer Service**: Comprehensive FAQ, shipping, returns, and warranty information
+- **Mobile Navigation**: Hamburger menu for mobile devices
+- **Toast Notifications**: User feedback for cart actions
+- **Product Details**: Detailed product pages with specifications and features
 
-### `npm start`
+## 🛠️ Technologies Used
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- React.js
+- React Router DOM
+- Framer Motion
+- React Hot Toast
+- CSS3
+- Font Awesome
+- Google Fonts (Inter)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 📦 Installation
 
-### `npm test`
+1. Clone the repository:
+2. Install dependencies:
+3. Start the development server:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🎨 Features & Components
 
-### `npm run build`
+### Navigation
+- Responsive navigation bar
+- Mobile-friendly hamburger menu
+- Cart indicator with item count
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Product Display
+- Grid layout for products
+- Hover animations
+- Quick view functionality
+- Detailed product pages
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Shopping Cart
+- Add/remove items
+- Quantity adjustment
+- Total calculation
+- Cart persistence
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Customer Service
+- FAQ section
+- Shipping information
+- Returns policy
+- Warranty details
+- Privacy policy
+- Terms of service
 
-### `npm run eject`
+## 🎯 Usage
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+1. Browse Products:
+   - View the collection on the home page or products page
+   - Click on products for detailed information
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+2. Shopping Cart:
+   - Add products to cart
+   - Adjust quantities
+   - Remove items
+   - View cart total
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+3. Customer Service:
+   - Access FAQ for common questions
+   - View shipping and returns policies
+   - Read warranty information
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 📱 Responsive Design
 
-## Learn More
+The website is fully responsive with:
+- Desktop-first design
+- Mobile navigation menu
+- Responsive grid layouts
+- Adaptive image sizing
+- Touch-friendly interfaces
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 🔧 Customization
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+1. Colors: Edit the CSS variables in App.css
+2. Products: Modify the products array in Products.js
+3. Images: Update image links in images.js
+4. Content: Edit component text and information
 
-### Code Splitting
+## 📄 License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+This project is open source and available under the [MIT License](LICENSE).
 
-### Analyzing the Bundle Size
+## 🤝 Contributing
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+1. Fork the repository
+2. Create a feature branch
+3. Commit your changes
+4. Push to the branch
+5. Open a pull request
 
-### Making a Progressive Web App
+## 👥 Authors
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- Your Name - Initial work
 
-### Advanced Configuration
+## 🙏 Acknowledgments
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Images from Unsplash
+- Icons from Font Awesome
+- Inter font from Google Fonts
