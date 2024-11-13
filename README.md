@@ -1,5 +1,7 @@
 # KeyboardHub - Mechanical Keyboard E-commerce
 
+![Keyboard](https://github.com/user-attachments/assets/6c97517c-7a9f-49e6-b0ab-5cbf02d6ad91)
+
 A modern, responsive e-commerce website for premium mechanical keyboards built with React.js and Framer Motion.
 
 ## 🚀 Features
@@ -104,7 +106,8 @@ This project is open source and available under the [MIT License](LICENSE).
 
 ## 👥 Authors
 
-- Your Name - Initial work
+Sumit Khanduri
+- GitHub: [@Justcoding](https://github.com/jus7coding)
 
 ## 🙏 Acknowledgments
 
