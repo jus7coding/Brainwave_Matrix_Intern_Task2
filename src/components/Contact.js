@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import { useState } from "react";
+import { useEffect } from "react";
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -7,6 +8,11 @@ const Contact = () => {
     email: "",
     message: ""
   });
+
+    // Add this useEffect to scroll to top when component mounts
+    useEffect(() => {
+      window.scrollTo(0, 0);
+    }, []);
 
   const handleSubmit = (e) => {
     e.preventDefault();

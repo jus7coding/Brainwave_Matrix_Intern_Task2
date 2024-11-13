@@ -1,8 +1,14 @@
 import { motion } from "framer-motion";
 import { useCart } from "../context/CartContext";
+import { useEffect } from "react";
 
 const Cart = () => {
   const { cart, removeFromCart, updateQuantity } = useCart();
+
+    // Add this useEffect to scroll to top when component mounts
+    useEffect(() => {
+      window.scrollTo(0, 0);
+    }, []);
 
   const calculateTotal = () => {
     return cart.reduce((total, item) => {

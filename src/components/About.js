@@ -1,12 +1,20 @@
 import { motion } from "framer-motion";
+import { useEffect } from "react";
 
 const About = () => {
+
+  // Add this useEffect to scroll to top when component mounts
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+  
   return (
     <motion.section
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       className="about-section"
     >
+
       <div className="about-content">
         <h1>About KeyboardHub</h1>
         <p>We are passionate about creating the perfect typing experience. Our carefully curated selection of mechanical keyboards represents the pinnacle of typing technology and design.</p>
@@ -29,5 +37,6 @@ const About = () => {
     </motion.section>
   );
 };
+
 
 export default About; 
