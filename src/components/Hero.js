@@ -100,7 +100,7 @@ const Hero = () => {
           className="cta-button-container"
         >
           <button className="cta-button">
-            Explore Collection
+            <span>Explore Collection</span>
           </button>
         </motion.div>
       </motion.div>

@@ -144,15 +144,75 @@ nav {
 }
 
 /* Buttons */
-.cta-button, .buy-button {
+.cta-button-container {
+  display: inline;
+  width: fit-content;
+}
+
+.cta-button {
   padding: 1rem 2rem;
   border: none;
   border-radius: 30px;
   background: linear-gradient(45deg, #4ecdc4, #556270);
   color: white;
+  font-size: 1.1rem;
   font-weight: 600;
   cursor: pointer;
-  transition: transform 0.3s ease;
+  position: relative;
+  overflow: hidden;
+  transition: all 0.3s ease;
+  z-index: 1;
+}
+
+.cta-button::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(45deg, #556270, #4ecdc4);
+  transition: left 0.3s ease;
+  z-index: -1;
+}
+
+.cta-button:hover::before {
+  left: 0;
+}
+
+.buy-button {
+  padding: 0.8rem 1.5rem;
+  border: none;
+  border-radius: 25px;
+  background: linear-gradient(45deg, #4ecdc4, #556270);
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  transition: all 0.3s ease;
+  z-index: 1;
+}
+
+.buy-button::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(45deg, #556270, #4ecdc4);
+  transition: left 0.3s ease;
+  z-index: -1;
+}
+
+.buy-button:hover::before {
+  left: 0;
+}
+
+.buy-button:active,
+.cta-button:active {
+  transform: scale(0.95);
 }
 
 /* Footer */
